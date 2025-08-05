@@ -13,13 +13,15 @@
         pythonEnv = pkgs.python312.withPackages (ps: with ps; [
           numpy
           opencv-python-headless
+          scenedetect
         ]);
       in
       {
         devShell = pkgs.mkShell {
-          buildInputs = [
+          buildInputs = with pkgs; [
             pythonEnv
-            pkgs.ruff
+            ruff
+            ffmpeg
           ];
         };
       });

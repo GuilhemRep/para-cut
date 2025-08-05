@@ -33,6 +33,6 @@ def extract_average_colors(video_path, output_image_path, frame_step=2):
         cv2.imwrite(output_image_path, output_image)
 
 # Example
-video_path = '../data/top_gun.mp4'
-image_path = '../data/top_gun.png'
+video_path = 'data/top_gun.mp4'
+image_path = 'data/top_gun.png'
 extract_average_colors(video_path, image_path)
