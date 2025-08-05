@@ -1,2 +1,2 @@
-# para-cut
-Traitement automatique de vidéos de sports extrêmes
+# Para cut
+_Traitement automatique de vidéo pour sports extrêmes_
